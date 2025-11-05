@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <nav class="navbar" style="background-color:#6E3B3D"> 
+        <a class="navbar-brand nav-fill" href="#">
+        <img src="C&I_Logo.svg" style="color:#FF8080;" width="100" height="100" class="d-inline align-left"> Cabinets & Interior</a>
+
+        <div class="navmenu d-lg-none ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <img src="Images/Hamburger_Icon.svg" width="50px" alt="">
+            </button>   
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <a id="mobile_home" class="navbar-brand nav-fill" href="index.html">
+                    <img src="C&I_Logo.svg" style="color:#FF8080;" width="150" height="150" class="d-inline align-left"></a>
+                <button id="mobile_exit" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <img src="Images/Navbar_X.svg" width="50px" alt="">
+                </button>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cabinet.html">Cabinets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="window.html">Windows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <ul class="nav justify-content-end d-none d-lg-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cabinet.html">Cabinets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="window.html">Windows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    
+
+    </nav>
+
+    <div id="container-fluid" style="flex-shrink: 0;"">
+        <div class="background"> 
+            
+            <div class="layer">
+                <div id="carouselId" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselId" data-slide-to="1"></li>
+                        <li data-target="#carouselId" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="row no-gutters">
+                                <div class="col-4 col-sm" style="background-color: #B15B5B">
+                                    <h2>Refinished Cabinets <br> & More!</h2>
+                                    <p class="caro-txt">We refinish cabinets so you don't have to throw your cabinets away! If you want to have more cabinets, or your old cabinets just aren't to your liking, we make cabinets as well! We make them fit to your liking to make your home feel like it's yours!</p>
+
+                                    <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
+                                </div>
+                                <div class="col-8">
+                                    <img class="carousel_img" src="Images/image (3).png">
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row no-gutters">
+                                <div class="col-4 col-sm" style="background-color: #B15B5B">
+                                    <h2>Blinds & Shutters!</h2>
+                                    <p class="caro-txt">Want your windows to have a brand-new look while also covering the sun from you? We have beautiful shutters for you to choose from and use to make your home even nicer while keeping away the hot sun from entering your home!</p>
+
+                                    <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
+                                </div>
+                                <div class="col-8">
+                                    <img class="carousel_img" src="Images/image (3).png">
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row no-gutters">
+                                <div class="col-4 col-sm" style="background-color: #B15B5B">
+                                    <h2>Explore Our Gallery!</h2>
+                                    <p class="caro-txt">We have a gallery of our past work with our satisfied clients! We are more than just our words, go take a look and we’ll show you that we mean everything we say we are!</p> 
+                                    <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
+                                </div>
+                                <div class="col-8">
+                                    <img class="carousel_img" src="Images/image (3).png">
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="row" style="background-color:#6E3B3D">
+        
+        <div class="col">
+            <div class="title-shape-left">
+                <h1 class="title">Who We Are</h1>
+                <div class="bkg-layer">
+                    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="700" height="100" x="0"y="0" fill="#4B4444"/>
+                    </svg>
+                </div>
+            </div>
+            <p>Our family business started 10 years ago with Antonio. He started Cabinets & Interior with the help of his family after many years working a variety of jobs involving carpentry, painting, installation, and designing! He’s gathered years of experience from helping others and will help you experience a better home!</p>
+        </div>
+
+        <div class="col-"></div>
+
+        <div class="col">
+            <img src="Images/man-6664257_1920.jpg" class="mx-auto d-block" width="300px" height="370px" alt="">
+            <p style="text-align: center; padding-top: 10px;">Antonio, The owner of Cabinets & Interior!</p>
+        </div>
+    </div>
+
+    <div class="row" style="background-color:#4B4444">
+        <div class="col" style="background-color: #6E3B3D">
+
+            <div class="form">
+                
+            <h1>1 on 1 Consultation</h1>
+            <p>Want a personal evaluation of your home project? Don’t be afraid to email us, we prioritize transparency when it comes to you and your home!</p>
+
+            <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+                <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-block" style="background-color: #FF8080; color: #fff;">Submit</button>
+
+            </div>
+        </div>
+
+        <div class="col-">
+        </div>
+
+        <div class="col-7">
+            <div class="title-shape-right">
+                <h1 class="title">What We Do</h1>
+                <div class="bkg-layer">
+                    <svg width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="850" height="100" x="0"y="0" fill="#6E3B3D"/>
+                    </svg>
+                </div>
+            </div>
+            <p>We bring only the best for our clients, we pride ourselves on being communicative and transparent with our clients. Our clients are the #1 priority! We help them achieve their dream home. A simple change in your home can leave a bigger impact on your best version of home! We’ll be glad to help you with your home projects. Creating is what we love to do! </p>
+        </div>
+    </div>
+
+    <div class="row" style="background-color:#4B4444">
+        <div class="col">
+            <div class="title-shape-left">
+                <h1 class="title">Questions?<br>Contact Us!</h1>
+                <div class="bkg-layer">
+                    <svg width="500" height="140" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="500" height="140" x="0"y="0" fill="#6E3B3D"/>
+                    </svg>
+                </div>
+            </div>
+            <p>Do you have any questions about our work or general process? Feel free to send an email and we’ll be happy to answer! Our business aims to be transparent with what we do, we’ll not just get your trust, we’ll earn it! </p>
+        </div>
+
+        <div class="col-md">
+        </div>
+
+        <div class="col" style="background-color: #3E3434">
+
+            <div class="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+
+                <div class="form-group">
+                    <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block" style="background-color: #FF8080; color: #fff;">Submit</button>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="pt-4" style="background-color: #707070;">
+
+        <div class="row align-items-center flex-wrap d-flex">
+            
+                
+            <div class="col text-white">
+                <h4 class="text-justify">Contact Us:</h4>
+                <p class="text-justify">Phone Number: 1 702 839 8293 <br>Email: shibunsasl@gmail.com</p>
+            </div>
+
+            <div class="col">
+                <p class="text-center">Copyright 2025-2026 | Privacy Policy </p>
+            </div>
+
+            <div class="col">
+                <img src="social-media-icon-set-6994936-02.svg" fill class="mx-auto d-block" height="100px" width="100px">
+            </div>
+            
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>

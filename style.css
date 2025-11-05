@@ -1,0 +1,166 @@
+/* MY CUSTOM CODE*/
+body{
+    background-color: azure;
+}
+
+/* Global Text */
+
+p{
+    color: white;
+    font-family: Cabin;
+    padding-top: 20px
+}
+
+h1{
+    color: #FF8080;
+    font-family: Zen Antique Soft;
+    
+}
+
+
+h2{
+    font-family: Zen Antique Soft;
+    color: white;
+}
+
+/* Navbar */
+
+.nav-item{
+    color: white;
+    font-family: Cabin;
+    font-size: 24px;
+}
+
+.navbar-brand {
+    color: #FF8080;
+    font-family: Zen Antique Soft;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.navbar .nav-item .nav-link{
+    color: white;
+    border-bottom: 4px solid transparent;
+}
+
+.navbar .nav-item .nav-link:hover{
+    border-bottom: 4px solid #934C4C;
+    color: white;
+    transition: ease-out 0.2s;
+}
+
+#mobile_home{
+    padding-left: 30px;
+}
+
+#mobile_exit{
+    float: right;
+    padding: 50px;
+}
+
+.navbar-toggler{
+    z-index: 999;
+}
+
+#collapsibleNavbar{
+    background-color: #6E3B3D;
+    width: vw;
+    height: vh;
+    inset: 0;
+    z-index: 998;
+    position: fixed;
+}
+
+.navbar-nav{
+    display: inline;
+    margin: auto;
+    padding: auto;
+}
+
+.navbar-nav li{
+    text-align: center;
+    display: inline;
+}
+
+
+/* Main */
+
+.title{
+    z-index: 1;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+
+rect{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title-shape-left{
+    position: relative;
+    margin-left: -65px;
+    
+}
+
+.title-shape-right{
+    position: relative;
+    margin-right: -65px;
+}
+
+.background {
+    background:url(Images/joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+}
+
+.layer {
+    background: #3E3535;
+    background: linear-gradient(180deg, rgba(62, 53, 53, 1) 0%, rgba(141, 24, 24, 0.39) 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+}
+
+.carousel{
+    padding: 100px;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item a img{
+    margin: auto;
+    display: block;
+}
+
+.carousel-img{
+}
+
+.col-4.col-sm {
+    padding: 20px;
+}
+
+.caro-txt{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.row{
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+}
+
+.form{
+    padding: 40px 10px;
+}
+
+/* Footer */
+
+.p-2 {
+    width: 100%;
+}
+
+
+
