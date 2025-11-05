@@ -23,7 +23,7 @@
         <a class="navbar-brand nav-fill" href="#">
         <img src="C&I_Logo.svg" style="color:#FF8080;" width="100" height="100" class="d-inline align-left"> Cabinets & Interior</a>
 
-        <div class="navmenu d-lg-none ">
+        <div class="navmenu d-lg-none">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <img src="Images/Hamburger_Icon.svg" width="50px" alt="">
             </button>   
@@ -75,8 +75,8 @@
 
     </nav>
 
-    <div id="container-fluid" style="flex-shrink: 0;"">
-        <div class="background"> 
+    <div id="container-fluid">
+        <div class="background nav justify-content-end d-none d-md-flex"> 
             
             <div class="layer">
                 <div id="carouselId" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -88,21 +88,21 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
                             <div class="row no-gutters">
-                                <div class="col-4 col-sm" style="background-color: #B15B5B">
+                                <div class="col caro-info" style="background-color: #B15B5B">
                                     <h2>Refinished Cabinets <br> & More!</h2>
                                     <p class="caro-txt">We refinish cabinets so you don't have to throw your cabinets away! If you want to have more cabinets, or your old cabinets just aren't to your liking, we make cabinets as well! We make them fit to your liking to make your home feel like it's yours!</p>
 
                                     <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
                                 </div>
-                                <div class="col-8">
-                                    <img class="carousel_img" src="Images/image (3).png">
+                                <div class="col-lg-8" style="background-color: #3E3434;">
+                                    <img class="img-fluid" src="Images/image (3).png">
                                 </div>
                             </div>    
                         </div>
 
                         <div class="carousel-item">
                             <div class="row no-gutters">
-                                <div class="col-4 col-sm" style="background-color: #B15B5B">
+                                <div class="col-5 col-sm" style="background-color: #B15B5B">
                                     <h2>Blinds & Shutters!</h2>
                                     <p class="caro-txt">Want your windows to have a brand-new look while also covering the sun from you? We have beautiful shutters for you to choose from and use to make your home even nicer while keeping away the hot sun from entering your home!</p>
 
@@ -138,25 +138,63 @@
                 </div>
             </div>
         </div>
+        
+        <div class="mobile-carousel d-md-none">
+            <div class="col-caro-img" style="background-color: #3E3434;">
+                <img class="img-fluid" src="Images/White Cabinets_finished.jpeg">
+            </div>
+
+            <div class="col-caro-info" style="background-color: #B15B5B">
+                <h2>Refinished Cabinets <br>& More!</h2>
+                <p>We refinish cabinets so you don't have to throw your cabinets away! If you want to have more cabinets, or your old cabinets just aren't to your liking, we make cabinets as well! We make them fit to your liking to make your home feel like it's yours!</p>
+
+                <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
+            </div>
+
+            <div class="caro-img-group" style="background-color: #3E3434;">
+                <img src="Images/Blinds 1.png">
+                <img src="Images/Blinds 2.png">
+                <img src="Images/Shutter 1.png">
+            </div>
+
+            <div class="col-caro-info" style="background-color: #B15B5B">
+                <h2>Blinds & Shutters!</h2>
+                <p>Want your windows to have a brand-new look while also covering the sun from you? We have beautiful shutters for you to choose from and use to make your home even nicer while keeping away the hot sun from entering your home!
+
+                <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
+            </div>
+
+            <div class="col-caro-img" style="background-color: #3E3434;">
+                <img class="img-fluid" src="Images/Refinished Cabinet 1.avif">
+            </div>
+
+            <div class="col-caro-info" style="background-color: #B15B5B">
+                <h2>Explore Our Gallery!</h2>
+                <p>We have a gallery of our past work with our satisfied clients! We are more than just our words, go take a look and we’ll show you that we mean everything we say we are!</p> 
+                
+                <button type="submit" class="btn btn-block d-inline align-bottom" style="background-color: #FF8080; color: #fff;">Submit</button>
+            </div>
+            
+        </div>
     </div>
     
     
     
     <div class="row" style="background-color:#6E3B3D">
         
-        <div class="col">
+        <div class="col-md-6">
             <div class="title-shape-left">
                 <h1 class="title">Who We Are</h1>
                 <div class="bkg-layer">
-                    <svg width="700" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="100%" height="100" xmlns="http://www.w3.org/2000/svg">
                         <rect width="700" height="100" x="0"y="0" fill="#4B4444"/>
                     </svg>
                 </div>
             </div>
             <p>Our family business started 10 years ago with Antonio. He started Cabinets & Interior with the help of his family after many years working a variety of jobs involving carpentry, painting, installation, and designing! He’s gathered years of experience from helping others and will help you experience a better home!</p>
-        </div>
 
-        <div class="col-"></div>
+            <button type="submit" class="btn btn-lg justify-content-end-md" style="background-color: #FF8080; color: #fff;">Learn More!</button>
+        </div>
 
         <div class="col">
             <img src="Images/man-6664257_1920.jpg" class="mx-auto d-block" width="300px" height="370px" alt="">
@@ -165,7 +203,7 @@
     </div>
 
     <div class="row" style="background-color:#4B4444">
-        <div class="col" style="background-color: #6E3B3D">
+        <div class="col-md-5" style="background-color: #6E3B3D">
 
             <div class="form">
                 
@@ -185,7 +223,7 @@
             </div>
 
             <div class="form-group">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Comments"></textarea>
             </div>
 
             <button type="submit" class="btn btn-block" style="background-color: #FF8080; color: #fff;">Submit</button>
@@ -193,10 +231,8 @@
             </div>
         </div>
 
-        <div class="col-">
-        </div>
 
-        <div class="col-7">
+        <div class="col">
             <div class="title-shape-right">
                 <h1 class="title">What We Do</h1>
                 <div class="bkg-layer">
@@ -205,7 +241,7 @@
                     </svg>
                 </div>
             </div>
-            <p>We bring only the best for our clients, we pride ourselves on being communicative and transparent with our clients. Our clients are the #1 priority! We help them achieve their dream home. A simple change in your home can leave a bigger impact on your best version of home! We’ll be glad to help you with your home projects. Creating is what we love to do! </p>
+            <p class="what-we-do">We bring only the best for our clients, we pride ourselves on being communicative and transparent with our clients. Our clients are the #1 priority! We help them achieve their dream home. A simple change in your home can leave a bigger impact on your best version of home! We’ll be glad to help you with your home projects. Creating is what we love to do! </p>
         </div>
     </div>
 
@@ -214,18 +250,15 @@
             <div class="title-shape-left">
                 <h1 class="title">Questions?<br>Contact Us!</h1>
                 <div class="bkg-layer">
-                    <svg width="500" height="140" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="500" height="140" x="0"y="0" fill="#6E3B3D"/>
+                    <svg width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="4800" height="100%" x="0"y="0" fill="#6E3B3D"/>
                     </svg>
                 </div>
             </div>
             <p>Do you have any questions about our work or general process? Feel free to send an email and we’ll be happy to answer! Our business aims to be transparent with what we do, we’ll not just get your trust, we’ll earn it! </p>
         </div>
 
-        <div class="col-md">
-        </div>
-
-        <div class="col" style="background-color: #3E3434">
+        <div class="col-md-5" style="background-color: #3E3434">
 
             <div class="form">
                 <div class="form-group">
@@ -241,7 +274,7 @@
                 </div>
 
                 <div class="form-group">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Comments"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Comments"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-block" style="background-color: #FF8080; color: #fff;">Submit</button>
@@ -255,20 +288,19 @@
         <div class="row align-items-center flex-wrap d-flex">
             
                 
-            <div class="col text-white">
-                <h4 class="text-justify">Contact Us:</h4>
-                <p class="text-justify">Phone Number: 1 702 839 8293 <br>Email: shibunsasl@gmail.com</p>
+            <div class="col-sm text-white">
+                <h4>Contact Us:</h4>
+                <p>Phone Number: 1 702 839 8293 <br>Email: shibunsasl@gmail.com</p>
             </div>
 
-            <div class="col">
+            <div class="col-md">
                 <p class="text-center">Copyright 2025-2026 | Privacy Policy </p>
             </div>
 
-            <div class="col">
+            <div class="col-md">
                 <img src="social-media-icon-set-6994936-02.svg" fill class="mx-auto d-block" height="100px" width="100px">
             </div>
             
-
         </div>
     </footer>
 

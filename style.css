@@ -125,7 +125,7 @@ rect{
 }
 
 .carousel{
-    padding: 100px;
+    padding: 100px;    
     justify-content: center;
 }
 
@@ -134,23 +134,68 @@ rect{
     display: block;
 }
 
-.carousel-img{
+.col-8 img{
+    padding: 20px;
+    width: 100%;
 }
 
-.col-4.col-sm {
+.btn.btn-lg{
+    margin-top: 75px;
+    border-radius: 0px;
+    width: 50%;
+}
+
+.col.caro-info, .col-caro-info {
     padding: 20px;
 }
 
-.caro-txt{
-    padding-top: 30px;
-    margin-bottom: 50px;
+.img-fluid{
+    padding: 20px;
 }
+
+.caro-img-group{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.caro-img-group img{
+    max-width: 30%;
+    height: auto;
+}
+
 
 .row{
     width: 100%;
     margin: 0;
     padding: 50px;
 }
+
+.what-we-do{
+    padding-left: 60px;
+}
+
+@media (max-width: 767.98px) { 
+    .col{
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .col-sm{
+        text-align: center;
+    }
+    
+    .btn.btn-lg{
+        margin: auto;
+        padding: auto;
+        display: block;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+ }
+
 
 .form{
     padding: 40px 10px;
