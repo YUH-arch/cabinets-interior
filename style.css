@@ -1,8 +1,3 @@
-/* MY CUSTOM CODE*/
-body{
-    background-color: azure;
-}
-
 /* Global Text */
 
 p{
@@ -25,6 +20,14 @@ h2{
 
 /* Navbar */
 
+.nav-link.mobile.selected, .nav-link.selected{
+    border-bottom: 4px solid #DB6161!important;
+}
+
+.navbar{
+    border-bottom: 8px solid #DB6161;
+}
+
 .nav-item{
     color: white;
     font-family: Cabin;
@@ -45,8 +48,24 @@ h2{
 
 .navbar .nav-item .nav-link:hover{
     border-bottom: 4px solid #934C4C;
-    color: white;
     transition: ease-out 0.2s;
+}
+
+.navbar .nav-item .nav-link:active{
+    border-bottom: 4px solid #FF8080;
+    transition: ease-out 0.2s;
+}
+
+.navbar-brand.nav-fill:hover{
+    color: #FF8080;
+}
+
+.navbar-nav .nav-item .nav-link.mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: auto;
 }
 
 #mobile_home{
@@ -82,8 +101,69 @@ h2{
     display: inline;
 }
 
+/* Carousel */
+
+.btn.btn-block.link{
+    background-color: #FF8080;
+    color: white;
+    padding: 14px 0;
+}
+
+.col.caro-info, .col-caro-info {
+    padding: 20px;
+}
+
+.img-fluid{
+    padding: 20px;
+}
+
+.caro-img-group img{
+    max-width: 30%;
+    height: auto;
+}
+
 
 /* Main */
+
+@media (max-width: 767.98px) { 
+    .col{
+        margin-top: 30px;
+        padding-left: 0;
+    }
+
+    .col-sm{
+        text-align: center;
+    }
+    
+    .btn.btn-lg{
+        margin: auto;
+        padding: auto;
+        display: block;
+        margin-bottom: 60px;
+        width: 100%;
+    }
+
+    .txt.img_text{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 767.98px) { 
+
+    .row.contact{
+        height: 70vh;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .txt.img_text{
+        padding-right: 0px!important;
+    }
+}
+
+.form{
+    padding: 40px 10px;
+}
 
 .title{
     z-index: 1;
@@ -139,33 +219,6 @@ rect{
     width: 100%;
 }
 
-.btn.btn-lg{
-    margin-top: 75px;
-    border-radius: 0px;
-    width: 50%;
-}
-
-.col.caro-info, .col-caro-info {
-    padding: 20px;
-}
-
-.img-fluid{
-    padding: 20px;
-}
-
-.caro-img-group{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.caro-img-group img{
-    max-width: 30%;
-    height: auto;
-}
-
-
 .row{
     width: 100%;
     margin: 0;
@@ -176,35 +229,83 @@ rect{
     padding-left: 60px;
 }
 
-@media (max-width: 767.98px) { 
-    .col{
-        margin-top: 30px;
-        padding-left: 0;
-    }
+/* Cabinet/Window Pages */
 
-    .col-sm{
-        text-align: center;
-    }
-    
-    .btn.btn-lg{
-        margin: auto;
-        padding: auto;
-        display: block;
-        margin-bottom: 60px;
-        width: 100%;
-    }
-
- }
-
-
-.form{
-    padding: 40px 10px;
+.col-md-12.col-lg-7.no-gutters.full_img{
+    padding: 0;
 }
+
+.row.img_text{
+    padding: 0;
+}
+
+.col-lg-5.img_txt{
+    padding: 50px 0px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.title-shape-left.img_txt{
+    margin-left: -100px;
+
+}
+
+.title-shape-left.img_txt .title{
+    padding-left: 100px;
+
+}
+
+.col.img_txt{
+    padding: 0px 50px;
+}
+
+.txt.img_text{
+    padding-right: 150px;
+}
+
+/* Contact */
+
+.contact.text-white{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.col-md-5 .img-fluid{
+    padding: 0;
+}
+
+
+
+/* Buttons */
+
+.btn.btn-lg{
+    margin-top: 75px;
+    width: 50%;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: #DB6161!important;
+}
+
+.btn:active{
+    background-color: #ab6868!important;
+}
+
 
 /* Footer */
 
-.p-2 {
-    width: 100%;
+.pt-4{
+    border-top: 8px solid #9b9b9b;
+    padding: 20px 40px;
+
+}
+
+.row.align-items-center{
+    width: 50%;
 }
 
 
