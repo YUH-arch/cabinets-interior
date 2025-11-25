@@ -20,17 +20,28 @@
 <body>
     
     <nav class="navbar" style="background-color:#6E3B3D"> 
-        <a class="navbar-brand nav-fill" href="index.html">
-        <img src="C&I_Logo.svg" style="color:#FF8080;" width="100" height="100" class="d-inline align-left"> Cabinets & Interior</a>
+        <a class="navbar-brand nav-fill d-none d-lg-inline" href="index.html">
+        <img src="C&I_Logo.svg" style="color:#FF8080;" width="150" height="150" class="d-inline align-left"> Cabinets & Interior</a>
 
-        <div class="navmenu d-lg-none">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <img src="Images/Hamburger_Icon.svg" width="50px" alt="">
-            </button>   
+        <div class="navmenu w-100 d-lg-none">
+            <div class="d-flex justify-content-between">
+            <a class="navbar-brand nav-fill" href="index.html"><img src="C&I_Logo.svg" style="color:#FF8080;" width="150" height="150" class="d-inline align-left"></a>
+            
+            <button class="navbar-toggler ham" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <img src="Images/Hamburger_Icon.svg" width="60px" alt="">
+            </button> 
+            </div>  
+
+            <div>
+                <a class="navbar-brand nav-fill" href="index.html">Cabinets & Interior</a>
+            </div>
+
+
 
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <a id="mobile_home" class="navbar-brand nav-fill" href="index.html">
-                    <img src="C&I_Logo.svg" style="color:#FF8080;" width="150" height="150" class="d-inline align-left"></a>
+                    <img src="C&I_Logo.svg" style="color:#FF8080;" width="150" height="150" class="d-inline align-left">
+                </a>
                 <button id="mobile_exit" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <img src="Images/Navbar_X.svg" width="50px" alt="">
                 </button>
@@ -78,9 +89,9 @@
     <div class="row contact" style="background-color:#4B4444">
         <div class="col img_txt">
             <div class="title-shape-left img_txt">
-                <h1 class="title">Questions?<br>Contact Us!</h1>
+                <h1 class="title">Have Questions?<br>Need a Consultation?<br> Contact Us!</h1>
                 <div class="bkg-layer">
-                    <svg width="100%" height="150" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg">
                         <rect width="4800" height="100%" x="0"y="0" fill="#6E3B3D"/>
                     </svg>
                 </div>
@@ -105,6 +116,14 @@
 
                 <div class="form-group">
                     <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-select" for="form_select">Form's Purpose</label>
+                        <select class="form-control" id="form_select">
+                          <option>Questions</option>
+                          <option>1-on-1 Consultation</option>
+                        </select>
                 </div>
 
                 <div class="form-group">
